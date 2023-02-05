@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.color1 {
+  color: #0a2463;
+}
+
+.bgcolor2 {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  color: #0a2463;
+  background-color: #e2e2e2;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  min-height: 1200px;
+  grid-template-rows: auto 1fr auto;
+  line-height: 1.5;
+  font-size: 1rem;
+  width: 95%;
+  background-color: #8bbcd1;
+  font-family: monospace;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: none;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.flex_col {
+  display: flex;
+  gap: 10px;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+  flex-direction: column;
+}
+
+.gridrow {
+  display: grid;
+  grid-row: 1fr;
+  gap: 10px;
+}
+
+p {
+  font-family: "proxima_novaregular";
+  margin-top: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: "proxima_novaregular";
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+@font-face {
+  font-family: "proxima_novaregular";
+  src: url("proxima_nova_font-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: beige;
+}
+
+.logo {
+  display: flex;
+  text-align-last: auto;
+  margin-block: auto;
+}
+
+.col {
+  columns: 1;
+  text-align: right;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 4rem;
+  gap: 30px;
+}
+
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.logo {
+  display: flex;
+  text-align-last: auto;
+  margin-block: auto;
+}
+
+header {
+  position: relative;
+  top: 0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: auto;
+}
+
+.grid-item {
+  background-color: rgb(60, 207, 252);
+  border: 1px solid rgba(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+video {
+  width: 100%;
+  display: block;
+  opacity: 0.5;
+}
+
+.playing video {
+  opacity: 1;
+}
+
+.video-player-button {
+  background: #f97e72;
+  color: #000;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.075rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.playing .video-player-button {
+  background: violet;
+}
