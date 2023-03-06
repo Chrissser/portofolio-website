@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#00FFFF;}
-	.st1{fill:#C69C6D;}
-	.st2{font-family:'Chalkduster';}
-	.st3{font-size:105.335px;}
-</style>
+	 width="4096px" height="3112px" viewBox="0 0 4096 3112" enable-background="new 0 0 4096 3112" xml:space="preserve">
 <g>
-	<rect x="217" y="98" class="st0" width="647" height="692"/>
-	<path class="st1" d="M857,105v678H224V105H857 M871,91H210v706h661V91L871,91z"/>
+	<rect x="1121.826" y="552.295" fill="#00FFFF" width="1864.318" height="1993.984"/>
+	<path fill="#C69C6D" d="M2965.975,572.465v1953.644H1141.997V572.465H2965.975 M3006.315,532.125H1101.656v2034.327h1904.659
+		V532.125L3006.315,532.125z"/>
 </g>
-<text transform="matrix(0.5484 0 0 1 365.999 235.2617)" class="st2 st3">Game over</text>
+<text transform="matrix(0.5484 0 0 1 1551.1631 947.812)" font-family="'Chalkduster'" font-size="303.5208">Game over</text>
 </svg>
