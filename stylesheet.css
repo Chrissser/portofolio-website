@@ -12,6 +12,9 @@ img {
   margin-top: 1rem;
 }
 
+.gap {
+  gap: 40px;
+}
 .color1 {
   color: #0a2463;
 }
@@ -21,8 +24,8 @@ img {
 }
 
 h1 {
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   color: black;
-  font-family: "proxima_novaregular";
   font-size: 5rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -31,7 +34,7 @@ h1 {
 
 .opgave {
   color: #0a2463;
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   font-size: 4rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -43,8 +46,8 @@ body {
   font-size: 1rem;
   width: 95%;
   background-color: #8bbcd1;
-  font-family: "proxima_novaregular";
-  margin: left 1000px;
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
+  margin: 2rem;
   grid-template-columns: auto;
 }
 
@@ -62,7 +65,7 @@ body {
   margin-left: 2rem;
 }
 
-.tabel{
+.tabel {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -101,7 +104,7 @@ body {
 }
 
 p {
-  font-family: "proxima_novaregular";
+  font-family: "Courier New", Courier, monospace;
   line-height: 2rem;
   letter-spacing: 0.5px;
   margin-left: 0.3rem;
@@ -109,17 +112,16 @@ p {
   font-size: 1.5rem;
 }
 .p1 {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   line-height: 2rem;
   letter-spacing: 0.5px;
   display: block;
   margin-left: 5rem;
   margin-right: 5rem;
   font-size: 1.5rem;
-  
 }
 .p2 {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   line-height: 2rem;
   letter-spacing: 0.5px;
   margin-left: 1rem;
@@ -127,7 +129,7 @@ p {
   font-size: 1.5rem;
 }
 h2 {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   text-align: center;
   font-size: 3rem;
   letter-spacing: 1px;
@@ -135,7 +137,7 @@ h2 {
   margin-top: 3rem;
 }
 h3 {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   text-align: justify;
   font-size: 2rem;
   letter-spacing: 1px;
@@ -144,16 +146,15 @@ h3 {
 }
 
 h4 {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   text-align: center;
   font-size: x-large;
   letter-spacing: 1px;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   margin-top: 2rem;
-
 }
 h5 {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   text-align: justify;
   font-size: x-large;
   letter-spacing: 1px;
@@ -170,9 +171,9 @@ main {
 }
 
 @font-face {
-  font-family: "proxima_novaregular";
-  src: url("proxima_nova_font-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: Courier;
+  src: url() format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -205,7 +206,7 @@ main {
 
 .logo {
   display: flex;
-  text-align-last: left;
+  text-align-last: justify;
   margin-top: 0rem;
 }
 
@@ -222,7 +223,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
-  gap: 10px;
+  gap: 40px;
   padding: 10px;
 }
 
@@ -231,7 +232,7 @@ header {
   padding: 20px 0;
   font-size: 30px;
 }
-.item4{
+.item4 {
   grid-column-start: 1;
   grid-column-end: 1;
 }
@@ -277,7 +278,7 @@ button {
 }
 
 .footer {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospacer";
   font-size: small;
   background-color: chartreuse;
   color: #ffffff;
@@ -287,7 +288,7 @@ button {
 }
 
 .indledning {
-  font-family: "proxima_novaregular";
+  font-family: "Menlo, Monaco, 'Courier New', monospace";
   font-size: x-small;
   text-align: center;
 }
@@ -315,7 +316,6 @@ video {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  img
 }
 
 @media only screen and (max-width: 700px) {
@@ -327,13 +327,14 @@ video {
     margin-top: 1rem;
     margin-left: 50px;
     margin-right: 50px;
-  } 
+  }
   .grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  gap: 10px;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+  }
 }
-}
+
 /* For mobile phones: */
